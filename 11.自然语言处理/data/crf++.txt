@@ -1,0 +1,7 @@
+
+# 转换训练集（输入格式为gbk）：python transform.py train.txt train_out.txt
+# 转化测试集（输入格式为gbk）：python transform.py test.txt test_out.txt
+# 转换验证集（输入格式为gbk）：python transform.py testright.txt testright_out.txt
+
+# 训练：crf_learn -f 10 -c 4.0 template.txt data/train_out.txt ner_model >> train_info
+# 测试：crf_test -m ner_model data/test_out.txt > res.txt
