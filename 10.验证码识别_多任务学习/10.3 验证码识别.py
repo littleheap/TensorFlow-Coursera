@@ -2,6 +2,7 @@ import os
 import tensorflow as tf
 from PIL import Image
 from nets import nets_factory
+from tensorflow.contrib.slim.python.slim.nets import *
 import numpy as np
 
 # 不同字符数量，0-9

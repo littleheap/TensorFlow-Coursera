@@ -11,6 +11,7 @@ number = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 # alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 # ALPHABET = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
+# char_set参数可用+号连接新内容，captcha_size参数可以更改成自己想要的结果
 def random_captcha_text(char_set=number, captcha_size=4):  # 生成4位验证码
     # 验证码列表
     captcha_text = []
@@ -31,10 +32,10 @@ def gen_captcha_text_and_image():
     captcha_text = ''.join(captcha_text)
     # 生成验证码
     captcha = image.generate(captcha_text)
-    image.write(captcha_text, 'images/' + captcha_text + '.jpg')  # 写到文件
+    image.write(captcha_text, 'D:/images/' + captcha_text + '.jpg')  # 写到文件
 
 
-# 数量少于10000，因为重名
+# 数量少于10000，因为是随机数生成原则会有重名
 num = 10000
 if __name__ == '__main__':
     for i in range(num):
@@ -43,5 +44,4 @@ if __name__ == '__main__':
         sys.stdout.flush()
     sys.stdout.write('\n')
     sys.stdout.flush()
-
     print("生成完毕")

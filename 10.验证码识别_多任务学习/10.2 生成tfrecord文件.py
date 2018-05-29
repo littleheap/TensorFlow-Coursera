@@ -1,7 +1,6 @@
 import tensorflow as tf
 import os
 import random
-import math
 import sys
 from PIL import Image
 import numpy as np
