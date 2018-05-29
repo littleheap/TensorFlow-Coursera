@@ -1,8 +1,8 @@
-# TensorFlowCourse
-:shaved_ice: A summary of TensorFlow courses.
+# TensorFlow-Coursera
+
+:shaved_ice: A Summary of TensorFlow Coursera.
 
 ## 本套TensorFlow基础课程体系，由炼数成金版权提供。以下内容为对应章节课程源码以及Demo，源码可在clone后直接运行，个别章节需要调试版本和配置相应文件，具体详见教程。个人整理，能力有限，望改进补充类似演示课件。
-### 需要视频课件请私下联系QQ：418761605
 
 * ### [1.TensorFlow入门安装](https://github.com/LittleHeap/TensorFlowCourse/tree/master/Week01_TensorFlow%E5%85%A5%E9%97%A8%E5%AE%89%E8%A3%85)  
     * #### [测试程序](https://github.com/LittleHeap/TensorFlowCourse/blob/master/Week01_TensorFlow%E5%85%A5%E9%97%A8%E5%AE%89%E8%A3%85/TestProgram.py) 
